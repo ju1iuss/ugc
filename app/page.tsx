@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function HomePage() {
   return (
@@ -20,7 +21,7 @@ export default function HomePage() {
         <section className="hero">
           <div className="container">
             <h1>Automate TikToks that drive traffic to your website</h1>
-            <p>it's like a gen z marketing team, but way cheaper</p>
+            <p>it&apos;s like a gen z marketing team, but way cheaper</p>
             <div className="cta-buttons">
               <Link href="/start" className="button button-primary">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -40,19 +41,19 @@ export default function HomePage() {
         <section className="showcase">
           <div className="tiktok-container">
             <div className="tiktok-video">
-              <img src="/placeholder.svg?height=380&width=220" alt="TikTok video preview" />
+              <Image src="/placeholder.svg" alt="TikTok video preview" width={220} height={380} />
             </div>
             <div className="tiktok-video">
-              <img src="/placeholder.svg?height=380&width=220" alt="TikTok video preview" />
+              <Image src="/placeholder.svg" alt="TikTok video preview" width={220} height={380} />
             </div>
             <div className="tiktok-video">
-              <img src="/placeholder.svg?height=380&width=220" alt="TikTok video preview" />
+              <Image src="/placeholder.svg" alt="TikTok video preview" width={220} height={380} />
             </div>
             <div className="tiktok-video">
-              <img src="/placeholder.svg?height=380&width=220" alt="TikTok video preview" />
+              <Image src="/placeholder.svg" alt="TikTok video preview" width={220} height={380} />
             </div>
             <div className="tiktok-video">
-              <img src="/placeholder.svg?height=380&width=220" alt="TikTok video preview" />
+              <Image src="/placeholder.svg" alt="TikTok video preview" width={220} height={380} />
             </div>
           </div>
         </section>
